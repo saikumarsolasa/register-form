@@ -1,0 +1,31 @@
+.input-field{
+    label{
+        display: block;
+        color: #333;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: "Open Sans";
+        margin: 8px 0px;
+        &>sup{
+            color: red;
+            font-weight: 700;
+            font-size: 1rem;
+            &::before{
+                content: '';
+                margin-left: 4px;
+            }
+        }
+    }
+    input{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 24px;
+        padding: 8px 10px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        &:focus-visible{
+            outline: none;
+        }
+        
+    }
+}
